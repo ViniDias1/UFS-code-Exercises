@@ -1,0 +1,88 @@
+<html><body><h1>codigo/bytebank.py</h1>Killed 34 out of 42 mutants<h2>Survived</h2>Survived mutation testing. These mutants show holes in your test suite.<h3>Mutant 5</h3><pre>--- codigo/bytebank.py
++++ codigo/bytebank.py
+@@ -10,7 +10,6 @@
+     def nome(self):
+         return self._nome
+ 
+-    @property
+     def salario(self):
+         return self._salario
+ 
+</pre><h3>Mutant 19</h3><pre>--- codigo/bytebank.py
++++ codigo/bytebank.py
+@@ -27,7 +27,7 @@
+ 
+ 
+     def _eh_socio(self):
+-        sobrenomes = ['Bragança', 'Windsor', 'Bourbon', 'Yamato', 'Al Saud', 'Khan', 'Tudor', 'Ptolomeu']
++        sobrenomes = ['Bragança', 'XXWindsorXX', 'Bourbon', 'Yamato', 'Al Saud', 'Khan', 'Tudor', 'Ptolomeu']
+         return (self._salario >= 100000) and (self.sobrenome() in sobrenomes)
+ 
+ 
+</pre><h3>Mutant 20</h3><pre>--- codigo/bytebank.py
++++ codigo/bytebank.py
+@@ -27,7 +27,7 @@
+ 
+ 
+     def _eh_socio(self):
+-        sobrenomes = ['Bragança', 'Windsor', 'Bourbon', 'Yamato', 'Al Saud', 'Khan', 'Tudor', 'Ptolomeu']
++        sobrenomes = ['Bragança', 'Windsor', 'XXBourbonXX', 'Yamato', 'Al Saud', 'Khan', 'Tudor', 'Ptolomeu']
+         return (self._salario >= 100000) and (self.sobrenome() in sobrenomes)
+ 
+ 
+</pre><h3>Mutant 21</h3><pre>--- codigo/bytebank.py
++++ codigo/bytebank.py
+@@ -27,7 +27,7 @@
+ 
+ 
+     def _eh_socio(self):
+-        sobrenomes = ['Bragança', 'Windsor', 'Bourbon', 'Yamato', 'Al Saud', 'Khan', 'Tudor', 'Ptolomeu']
++        sobrenomes = ['Bragança', 'Windsor', 'Bourbon', 'XXYamatoXX', 'Al Saud', 'Khan', 'Tudor', 'Ptolomeu']
+         return (self._salario >= 100000) and (self.sobrenome() in sobrenomes)
+ 
+ 
+</pre><h3>Mutant 22</h3><pre>--- codigo/bytebank.py
++++ codigo/bytebank.py
+@@ -27,7 +27,7 @@
+ 
+ 
+     def _eh_socio(self):
+-        sobrenomes = ['Bragança', 'Windsor', 'Bourbon', 'Yamato', 'Al Saud', 'Khan', 'Tudor', 'Ptolomeu']
++        sobrenomes = ['Bragança', 'Windsor', 'Bourbon', 'Yamato', 'XXAl SaudXX', 'Khan', 'Tudor', 'Ptolomeu']
+         return (self._salario >= 100000) and (self.sobrenome() in sobrenomes)
+ 
+ 
+</pre><h3>Mutant 23</h3><pre>--- codigo/bytebank.py
++++ codigo/bytebank.py
+@@ -27,7 +27,7 @@
+ 
+ 
+     def _eh_socio(self):
+-        sobrenomes = ['Bragança', 'Windsor', 'Bourbon', 'Yamato', 'Al Saud', 'Khan', 'Tudor', 'Ptolomeu']
++        sobrenomes = ['Bragança', 'Windsor', 'Bourbon', 'Yamato', 'Al Saud', 'XXKhanXX', 'Tudor', 'Ptolomeu']
+         return (self._salario >= 100000) and (self.sobrenome() in sobrenomes)
+ 
+ 
+</pre><h3>Mutant 24</h3><pre>--- codigo/bytebank.py
++++ codigo/bytebank.py
+@@ -27,7 +27,7 @@
+ 
+ 
+     def _eh_socio(self):
+-        sobrenomes = ['Bragança', 'Windsor', 'Bourbon', 'Yamato', 'Al Saud', 'Khan', 'Tudor', 'Ptolomeu']
++        sobrenomes = ['Bragança', 'Windsor', 'Bourbon', 'Yamato', 'Al Saud', 'Khan', 'XXTudorXX', 'Ptolomeu']
+         return (self._salario >= 100000) and (self.sobrenome() in sobrenomes)
+ 
+ 
+</pre><h3>Mutant 25</h3><pre>--- codigo/bytebank.py
++++ codigo/bytebank.py
+@@ -27,7 +27,7 @@
+ 
+ 
+     def _eh_socio(self):
+-        sobrenomes = ['Bragança', 'Windsor', 'Bourbon', 'Yamato', 'Al Saud', 'Khan', 'Tudor', 'Ptolomeu']
++        sobrenomes = ['Bragança', 'Windsor', 'Bourbon', 'Yamato', 'Al Saud', 'Khan', 'Tudor', 'XXPtolomeuXX']
+         return (self._salario >= 100000) and (self.sobrenome() in sobrenomes)
+ 
+ 
+</pre></body></html>
